@@ -1,0 +1,113 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.homediv{
+    background-image:url('./images/banner2.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 800px;
+    width: 100%;
+}
+.navlinks{
+    padding: 30px;
+    text-align: right;
+    font-size: 22px;
+}
+ .navlinks a{
+     text-decoration: none;
+     color: white;
+     padding:10px 22px ; 
+ }
+ .navlinks a:hover{
+     background-color: #0dd4f3;
+     border-radius: 22px;
+     animation: mymove 0.5s;
+ }
+ .navlinks a.active{
+    background-color: #0dd4f3;
+    border-radius: 22px;
+    animation: mymove 0.4s;
+}
+ @keyframes mymove {
+     from{border-radius: 18px;}
+     to{border-radius: 24px;}
+ }
+.centerdiv {text-align: center;
+    padding-top: 160px;
+}
+.centerdiv span{
+    font-size: 90px;
+    font-family: arial;
+    color: #0dd4f3 ; 
+    text-transform: uppercase;
+}
+.centerdiv h1{
+    font-size: 100px;
+    color:white;
+    font-style: bold;  
+    margin-top: 0px;
+}
+.centerdiv p{
+    margin: 0px;
+    color:white;
+    position: absolute;
+    top:38vw; 
+    left: 9vw;
+    width: 80%;
+    font-style: italic;
+    font-size: 25px;
+    font-family: cursive;  
+}
+.centerdiv a{
+    text-align: center;
+    position:absolute;
+    top: 50vw;
+    left: 32vw;
+    background-color: white;
+    border-radius: 26px; 
+    color: black;
+    padding: 14px 24px 14px 24px ;
+    text-decoration: none;
+}
+.centerdiv a.a1{
+    position:absolute;
+    top: 50vw;
+    left: 50vw; 
+    padding: 14px 70px 14px 70px ;
+}
+.centerdiv a:hover{
+    background-color: #0dd4f3;
+}
+
+.about {
+    background:url('./images/about_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+.about1{
+    position: absolute;
+    top: 75vw;
+    left: 5vw;
+    width: 40%;
+}
+.about1 span{
+    font-size: 80px;
+    line-height: 70px; 
+}
+.about1 p{
+    padding-top: 32px;
+    font-size: 17px;
+     line-height: 28px;
+     font-family: monospace;
+}
+.aboutpic{
+    position: absolute;
+    left: 45vw;
+    top: 67vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    }
+
+
