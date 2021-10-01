@@ -1,3 +1,4 @@
+
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -12,6 +13,9 @@ body{
     padding: 30px;
     text-align: right;
     font-size: 22px;
+    list-style: none;
+    display: flex;
+    justify-content: right;
 }
  .navlinks a{
      text-decoration: none;
@@ -21,12 +25,12 @@ body{
  .navlinks a:hover{
      background-color: #0dd4f3;
      border-radius: 22px;
-     animation: mymove 0.5s;
  }
  .navlinks a.active{
     background-color: #0dd4f3;
     border-radius: 22px;
     animation: mymove 0.4s;
+  
 }
  @keyframes mymove {
      from{border-radius: 18px;}
@@ -34,6 +38,12 @@ body{
  }
 .centerdiv {text-align: center;
     padding-top: 160px;
+    position: relative;
+    animation: ex 1s;
+}
+@keyframes ex{
+    from{ left: 20vw ;}
+    to{left:0vw;}
 }
 .centerdiv span{
     font-size: 90px;
@@ -51,14 +61,14 @@ body{
     margin: 0px;
     color:white;
     position: absolute;
-    top:38vw; 
+    top:30vw; 
     left: 9vw;
     width: 80%;
     font-style: italic;
     font-size: 25px;
     font-family: cursive;  
 }
-.centerdiv a{
+.ticketlink a{
     text-align: center;
     position:absolute;
     top: 50vw;
@@ -69,45 +79,48 @@ body{
     padding: 14px 24px 14px 24px ;
     text-decoration: none;
 }
-.centerdiv a.a1{
+.ticketlink a.a1{
     position:absolute;
     top: 50vw;
-    left: 50vw; 
+    left: 49vw; 
     padding: 14px 70px 14px 70px ;
 }
-.centerdiv a:hover{
+.ticketlink a:hover{
     background-color: #0dd4f3;
 }
 
-.about {
+.aboutsection {
     background:url('./images/about_bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 700px;
 }
-.about1{
+.firsthalf{
     position: absolute;
-    top: 75vw;
+    top: 72vw;
     left: 5vw;
     width: 40%;
 }
-.about1 span{
+.firsthalf span{
     font-size: 80px;
     line-height: 70px; 
 }
-.about1 p{
+.firsthalf p{
     padding-top: 32px;
     font-size: 17px;
      line-height: 28px;
      font-family: monospace;
 }
-.aboutpic{
+.sechalf{
     position: absolute;
-    left: 45vw;
-    top: 67vw;
+    left: 50vw;
+    top: 66vw;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     }
+.sechalf img{
+    width: 90vh;
+}
 
 
