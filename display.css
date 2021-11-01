@@ -98,6 +98,10 @@ body{
     padding: 1vw 5vw 1vw 5vw ;
     margin-left: .5vw;
 }
+.ticketlink a.a2{
+    padding: 1vw 5.6vw 1vw 5.6vw ;
+    margin-left: .5vw;
+}
 .ticketlink a:hover{
     background-color: #0dd4f3;
 }
@@ -135,6 +139,73 @@ body{
     }
 .sechalf img{
     width: 42vw;
+}
+.concert{
+    height: 640px;
+    width: 99vw;
+}
+.firsthalfcon{
+    position:absolute;
+    top: 1550px;
+    left: 10vw;
+    width: 35%;
+}
+.firsthalfcon span{
+    font-size: 6vw;
+    line-height: 6vw;
+}
+.firsthalfcon p,ul{
+    padding-top: 3vw;
+    font-size: 1.4vw;
+    line-height: 28px;
+    font-family: monospace;
+}
+.sechalfcon{
+    position: absolute;
+    left: 45vw;
+    top: 1500px;
+}
+.sechalfcon img{
+    width: 54vw;
+    height: 44vw;
+}
+.gallery{
+    height: 640px;
+    width: 99vw;
+    background-color: #ececec;
+}
+.firsthalfgal{
+    margin: 30px;
+}
+.img1 img{
+  margin:15px;
+    width:26vw;
+    height:auto
+}
+.img2 img{
+    flex-direction: row;
+    width:26vw;
+    margin:15px;
+}
+.firsthalfgal img:hover{
+    opacity: 90%;
+    transform: scale(1.15);
+}
+.sechalfgal{
+    position:absolute;
+    top: 2220px;
+    right:7vw;
+    width:27%
+}
+.sechalfgal span{
+    font-size: 6vw;
+    line-height: 6vw;
+}
+.sechalfgal p{
+    padding-top: 3vw;
+    font-size: 1.4vw;
+    line-height: 28px;
+    font-family: monospace;
 }
 .contact{
     text-align: center;
@@ -202,17 +273,18 @@ margin-right: 4px;
 }
 ul.loca li{
     color: white;
-    padding: 1vw;  
+    padding: 2vw; 
+    text-align: left; 
 }
 .loca img{
-    padding: .9vw;
-    margin-top:2vw;
+    padding: 0.3vw;
+    margin-top:-2vw;
 }
 .social{
     display: flex;
     list-style: none;
     justify-content: center;
-    margin-top: 3vw;
+    margin-top: -0.5vw;
     height: 20px;
 }   
 .social img{
@@ -220,13 +292,14 @@ ul.loca li{
     margin: 0.3vw;
 }
 
-
+@media screen and (min-width:576px) {
+    .burger img{display: none;}
+    
+}
 @media screen and (max-width: 1313px) and (min-width: 846px) {
     .centerdiv h1{font-size: 70px;}
     .navlinks img{height: 80px;}
     .burger img{display:none;}
-    
-  
 }
 @media screen and (max-width: 846px) {
     .navlinks img{height: 60px;}
@@ -235,9 +308,6 @@ ul.loca li{
     .burger img{display:none;}
     .firsthalf{font-size: 1.2vw;line-height:0px;width: 50%;}
     .sechalf{position: absolute;left: 55vw;top: 820px;}
-   
-   
-
 }
 @media screen and (max-width: 576px) {
     .centerdiv h1{font-size: 35px;}
@@ -247,9 +317,6 @@ ul.loca li{
     .vnav a{opacity: 0;}
     .burger img{display:block;}
     .firsthalf{font-size: 0.8vw;width: 50%;}
-        .sechalf{position: absolute;left: 55vw;top: 880px;}
-    
+    .sechalf{position: absolute;left: 55vw;top: 880px;}
+
 }
-
-
-

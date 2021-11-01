@@ -1,0 +1,72 @@
+
+* {
+    box-sizing: border-box;
+}
+body{
+    background-image: url('./images/banner2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.myForm{
+    color: black;
+    background-color: lightgrey; 
+    opacity: 70%; 
+    width:50%;
+    position: absolute;
+    top: 160px;
+    left:25vw;
+    padding: 40px;
+}
+ .page{
+    position:absolute;
+    left: 26vw;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+ } 
+ .page h3{
+     position: absolute;
+     left:10vw;
+     top:48px;
+    font-style: italic;
+ }
+
+.myForm.book{
+    color: chartreuse;
+}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
